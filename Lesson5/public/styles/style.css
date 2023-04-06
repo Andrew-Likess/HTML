@@ -1,0 +1,181 @@
+@font-face {
+   font-family: "montserrat";
+   src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+   font-family: "roboto";
+   src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+   font-family: "playfair_display";
+   src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box ;
+}
+a{
+   text-decoration: none;
+}
+li {
+   list-style-type: none;
+}
+#app{
+   background: url("https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80") ;
+   color: black;
+   font-family: "montserrat";
+}
+.header{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: .8rem;
+   font-family: "playfair_display";
+   text-transform: uppercase;
+   justify-content: space-between;
+   background: url("https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+}
+.logo{
+   width: 4rem;
+}
+.nav{
+   display: flex;
+   width: 60%;
+   justify-content: space-between;
+}
+.container{
+   padding: 1rem;
+   display: flex;
+}
+.main{
+   margin-left: 2rem;
+}
+.product__title {
+   font-family: "roboto";
+   text-transform: uppercase;
+   font-size: 1.2rem;
+}
+.product__image{
+   width: 70%;
+   border: 3px outset rgb(174, 174, 174);
+   margin-top: 1.5rem;
+   
+}
+
+/* Стили для блока c ккал */
+
+.product__energy__title{
+   align-items: center; 
+   text-transform: uppercase;
+   font-size: 1rem;
+   margin-top: 2rem;
+   display: block;
+   text-align: center;
+}
+.product__energy_nav ul:first-child {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top: 1rem;
+   font-size: 0.8rem;
+ }
+ .product__energy_nav ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top: 0.3rem;
+   font-size: 0.8rem;
+ }
+ 
+ .product__energy_nav li {
+   display: flex;
+   align-items: center;
+ }
+
+
+/* Стили для блока с ингредиентами */
+
+.product__ingredient{
+   margin-top: 2rem;
+}
+ .product__ingredient__title {
+   font-weight: bold;
+   margin-top: 3rem;
+ }
+ 
+ .product__ingredient__list {
+   margin-top: 0.8rem;
+ }
+ 
+ .product__ingredient__list p {
+   padding: 0.3rem 0;
+   border-bottom: 1px solid #ccc;
+ }
+ /* Приготовление */
+.product__cook{
+   margin-top: 2rem;
+   width: 85%;
+}
+
+ .product__cook__title{
+   font-weight: bold;
+   margin-top: 3rem;
+ }
+ .product__cook__all{
+   margin-top: 0.8rem;
+   display: flex;
+   flex-direction: column;
+ }
+ .cook__text{
+   display: flex;
+ }
+ .product__cook_oneStep{
+   padding-top: 0.3rem;
+   display: flex;
+ }
+ .cook__fillet{
+   width: 25%;
+   border-radius: 50%;
+ }
+ .product__cook_twoStep{
+   padding-top: 1.3rem;
+   display: flex;
+   align-items: center;
+ }
+ .footer {
+   margin-top: 3rem;
+   display: flex;
+   padding: .8rem;
+   justify-content: space-between;
+   font-family: "playfair_display";
+   background: url("https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+   
+}
+
+.media {
+   display: flex;
+   width: 30%;
+   justify-content: space-between;
+   font-size: 0.8rem;
+}
+
+.media-item {
+   cursor: pointer;
+}
+ 
+ .product__cook_threeStep{
+   padding-top: 1.3rem;
+   display: flex;
+ }
+ 
+
+ 
+ 
+
+
+
+ 
+ 
+ 

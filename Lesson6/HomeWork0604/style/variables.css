@@ -1,0 +1,13 @@
+:root{
+   --one-containet-bg:#fff;
+   --one-container-color: #000;
+   --one-nav-bg: rgb(230, 230, 230);
+   --one-nav-hover-bg:rgb(196, 196, 196);
+   --one-nav-color:#404040;
+
+   --two-container-bg:rgb(77, 75, 75);
+   --two-container-color: #f2f2f2;
+   --two-nav-bg: rgb(110, 110, 110);
+   --two-nav-hover-bg:rgb(80, 80, 80);
+   --two-nav-color:#ccc4c4;
+}

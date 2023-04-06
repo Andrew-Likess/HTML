@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Title</title>
+   <style>
+      * {
+         margin: 0px;
+      }
+
+      body {
+         text-align: center;
+         border: 1px solid black;
+         width: 410px;
+         margin-left: 25%;
+         margin-top: 50px;
+
+      }
+
+      iframe {
+         /* text-align: center; */
+         /* overflow: hidden; */
+         height: 256px;
+         /* height: 100%; */
+         margin-left: 20%;
+         border-width: 0px;
+         border-style: none;
+         border-color: black;
+         border-image: none;
+      }
+
+      .gallery {
+         border-top: 1px solid black;
+      }
+
+      .litle {
+         border-right: 1px solid black;
+         display: inline-block;
+         /* border: 1px solid black; */
+
+      }
+
+      .litle:last-child {
+         border-right: 0px solid black;
+      }
+
+      h3 {
+         text-transform: uppercase;
+         text-align: center;
+      }
+   </style>
+</head>
+
+<body>
+
+   <h3>Cat's gallery</h3>
+
+   <iframe name="cats-gallery" src="img/cat_tied_256.png"></iframe>
+
+   <div class="gallery">
+      <a href="img/cat_tied_256.png" target="cats-gallery" class="litle">
+         <img src="img/cat_tied_64.png" alt="cat tied">
+      </a>
+      <a href="img/cat_purr_256.png" target="cats-gallery" class="litle">
+         <img src="img/cat_purr_64.png" alt="cat tied">
+      </a>
+      <a href="img/cat_eyes_256.png" target="cats-gallery" class="litle">
+         <img src="img/cat_eyes_64.png" alt="cat tied"></a>
+      <a href="img/cat_clean_256.png" target="cats-gallery" class="litle">
+         <img src="img/cat_clean_64.png" alt="cat tied"></a>
+      <a href="img/cat_cage_256.png" target="cats-gallery" class="litle">
+         <img src="img/cat_cage_64.png" alt="cat tied"></a>
+      <a href="img/cat_box_256.png" target="cats-gallery" class="litle">
+         <img src="img/cat_box_64.png" alt="cat tied"></a>
+   </div>
+
+</body>
+
+</html>

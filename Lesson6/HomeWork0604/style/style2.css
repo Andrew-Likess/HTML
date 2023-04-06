@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url(./variables.css);
+
+#add {
+   padding: 100px 0;
+   font-family: 'Roboto', sans-serif;
+   background: url("https://abrakadabra.fun/uploads/posts/2022-03/1646762284_1-abrakadabra-fun-p-temnii-fon-vertikalnii-1.jpg");
+   transition: 1s;
+}
+
+h3 {
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.container {
+   width: 792px;
+   min-height: 500px;
+   border: 10px solid rgb(77, 75, 75);
+   margin: 0 auto;
+   background: var(--two-container-bg);
+   transition: 1s;
+}
+
+.header {
+   display: flex;
+   height: 150px;
+}
+
+.title-block {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   height: 100%;
+   font-size: 30px;
+   background: url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") no-repeat center center/cover;
+   color: #fff;
+   margin-right: 10px;
+}
+
+
+.title {
+   position: relative;
+   z-index: 1;
+}
+
+.userpic {
+   display: flex;
+   width: 20%;
+   height: 100%;
+   background: url('https://fsx1.itstep.org/api/v1/files/Yqc2beJp2t9Dqo68EwB-rgboVzW_0teH') no-repeat center center/cover;
+   transition: transform 0.5s;
+}
+.userpic:hover {
+   transform: scale(1.1);
+}
+.nav ul {
+   display: flex;
+   background: var(--two-nav-bg);
+   margin: 10px 0;
+}
+
+.nav li a {
+   display: flex;
+   padding: 20px;
+   text-decoration: none;
+   color: var(--two-container-color);
+   font-weight: bold;
+   border-right: 1px solid #d1d1d1;
+   transition: background 0.5s ease;
+
+}
+
+.nav li a:hover {
+   background: var(--two-nav-hover-bg);
+}
+
+.content-wrapper {
+   display: flex;
+}
+
+.content {
+   width: 85%;
+   padding: 20px;
+   color: var(--two-container-color);
+}
+
+.content p {
+   line-height: 20px;
+}
+
+.sidebar {
+   padding: 20px;
+   width: 15%;
+   text-align: right;
+}
+
+.his li {
+   padding: 10px 0;
+   transition: transform 0.5s ease;
+
+}
+
+.his li:hover {
+   transform: translateX(-10px);
+}
+
+.content section a {
+   text-decoration: none;
+   color: var(--two-nav-color);
+   font-weight: bold;
+}
+
+#osnovni-tagy ul {
+   padding: 20px;
+   line-height: 20px;
+}
+
+#strukturni-elementy ul {
+   padding: 20px;
+   line-height: 20px;
+}
+
+#znachenya-atrybutiv ul {
+   padding: 20px;
+   line-height: 20px;
+}
+
+.his a {
+   text-decoration: none;
+   color: var(--two-nav-color);
+   font-weight: bold;
+}
+.footer {
+   display: flex;
+   padding: 0.8rem;
+   justify-content: space-between;
+   background: var(--two-nav-bg);
+}
+.media {
+   display: flex;
+   width: 30%;
+   justify-content: space-between;
+}
+.logo{
+   width: 30px;
+}
