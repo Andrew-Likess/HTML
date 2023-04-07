@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+#add{
+   
+   background: linear-gradient(skyblue,white);
+   text-align: center;
+}
+.container{
+   font-family: 'Roboto', sans-serif;
+}
+.header{
+   /* display: flex;
+   justify-content: center; */
+   padding: 2rem;
+   /* border: 1px solid black; */
+   
+   
+}
+.images-wrapper{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   /* border: 1px solid black; */
+   margin: 30px 30%;
+   
+}
+.emoj1 , .emoj3{
+   width: 2rem;
+   height: 2rem;
+}
+.emoj2{
+   width: 4.5rem;
+   height: 4.5rem;
+}
+.text-wrapper{
+   /* border: 1px solid black; */
+   margin: 30px 30%;
+}
+.appeal{
+   font-size: 1.5rem;
+}
+.slogan{
+   font-size: 1.2rem;
+   color: rgb(95, 94, 94);
+}
+.main{
+
+}
+.transition{
+   /* border: 1px solid gray; */
+   margin: 0px 35%;
+   background: white;
+   border-radius: 1.5rem;
+   
+}
+.tip-title{
+   font-family: 'Montserrat', sans-serif;
+   padding: 30px 0;
+}
+.tips-fast-options{
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.fats_button{
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;   
+   cursor: pointer;
+   width: 7rem;
+   height: 3rem;
+   font-size: 1rem;
+   background: inherit;
+   border: 1px solid rgb(204, 204, 204);
+   border-radius: 1rem;
+   transition: 0.4s;
+}
+.fats_button:focus{
+   background: rgb(67, 67, 252);
+   color: white;
+}
+
+.tips-fast-options__amount{
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;  
+   margin: 30px 0; 
+   width: 93%;
+   height: 3rem;
+   font-size: 1rem;
+   background: inherit;
+   border: 1px solid rgb(204, 204, 204);
+   border-radius: 1rem;
+   transition: 0.4s;
+   text-align: center;
+   color: rgb(49, 55, 67);
+}
+
+.tips-fast-options__amount:focus{
+   background: rgb(67, 67, 252);
+   color: white;
+}
+
+.tips-fast-options__enter-button{
+   font-family: 'Montserrat', sans-serif;
+   width: 30%;
+   height: 3rem;
+   cursor: pointer;
+   background: rgb(67, 67, 252);
+   border-radius: 1rem;
+   border: none;
+   color: white;
+   font-size: 1rem;
+   font-weight:bold;
+   margin: 30px 0;
+   transition: 0.5s;
+}
+.tips-fast-options__enter-button:hover{
+   background:rgb(102, 71, 255);
+}
+
+.info{
+   font-family: 'Montserrat', sans-serif;
+   margin: 2rem 25%;
+   /* border: 1px solid black; */
+   justify-content: center;
+}
+.info__title{
+   color: rgb(62, 61, 61);
+   margin-bottom: 2rem;
+}
+.info__text{
+   padding: 1.3rem 0 0 0;
+}
+.score{
+   /* font-family: 'Roboto', sans-serif; */
+   font-size: 2.5rem;
+   font-weight: bold;
+}
+.footer{
+   background: #000;
+}
+.footer__container{
+   margin: 5rem 30% 0 ;
+   padding-bottom: 2rem;
+}
+.logo{
+   padding: 2rem 0 0 0;
+   cursor: pointer;
+}
+.footer__text{
+   color: rgb(99, 99, 99); 
+   font-size: .9rem;
+   padding: 1.7rem 0;
+}
