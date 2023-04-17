@@ -17,6 +17,7 @@ li {
 }
 
 #app {
+    /* margin: 20%; */
     background: var(--primary-bg);
     width: 1512px;
     padding: calc(var(--padding-l) + 6px);
@@ -132,19 +133,14 @@ li {
    height: 240px ;
    width: 100%;
 }
-.catalog__title{
+.catalog__title, .bestsellers__title{
    text-align: center;
 }
-.catalog__group{
+.catalog__group, .bestsellers__group{
    margin-top: var(--margin-xxl);
 }
-/* .catalog__item{
 
-} */
-/* .catalog__img-wrapper{
-
-} */
-.catalog__img{
+.catalog__img, .bestsellers__img{
    width: 440px;
    height: 440px;
 }
@@ -157,3 +153,123 @@ li {
    text-transform: uppercase;
    margin-top: var(--margin-l);
 }
+/* comments    */
+
+.comments{
+   /* width: 968px;
+   height: 534px; */
+}
+.comments__title{
+   text-align: center;
+}
+.comments__container-all{
+   display: flex;
+   height: 555px;
+   /* width: 968px; */
+}
+.comments__block{
+   
+   width: 474px;
+   height: 172px;
+   background: #DFDFDF;
+   /* margin: 50px; */
+}
+
+.comments__block:first-child{
+   z-index: 2;
+   position: relative;
+   top: 94px;
+   left: 250px ;
+}
+.comments__block:nth-child(2){
+   position: relative;
+   top: 60px;
+   left: 266px ;
+   
+}
+.comments__block:last-child{
+   border: 2px solid rgb(154, 154, 154);
+   background: none;
+   position: relative;
+   top: 252px;
+   left: -450px ;
+   background: inherit;
+}
+
+.comments__block-container{
+   padding: calc(var(--padding-m) - 2px);
+}
+.comments__ava-title{
+   display: flex;
+   align-items: center;
+}
+.comments__ava-wrapper{
+
+}
+.ava{
+   width: 50px;
+   height: 50px;
+}
+.comments__name{
+  color: var(--third-text-color);
+  font-family: "nanum";
+  font-weight: 600;
+  font-size: var(--fs-s);
+  text-transform: uppercase;
+  padding-left: calc(var(--padding-xs) + 4px) ;
+}
+.comments__paragraph{
+   padding-top: calc(var(--padding-s) + 4px);
+}
+
+/* style for classes  bestsellers on 135 line and under */
+
+.bestsellers__text-title{
+   color: var(--third-text-color);
+   font-family: "nanum";
+   font-weight: 600;
+   font-size: var(--fs-s);
+   text-transform: uppercase;
+   margin-top: var(--margin-l);
+}
+
+.bestsellers__text-info{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+}
+.bestsellers__text-title{
+   
+}
+.bestsellers__text-price{
+   padding-left: 101px;
+   
+   color: var(--third-text-color);
+   font-family: "nanum";
+   font-weight: 600;
+   font-size: var(--fs-s);
+   text-transform: uppercase;
+   margin-top: var(--margin-l);
+}
+
+.bestsellers__button-buy-wrapper {
+   
+   margin-top: var(--margin-l);
+}
+
+.bestsellers__button-buy {
+   position: static;
+   font-size: 24px;
+   padding: 5px 10px;
+   border: 1px solid var(--secondary-text-color);
+   border-radius: 3px;
+   color: var(--primary-text-color);
+}
+
+.bestsellers__button-wrapper{
+   margin-top: var(--margin-xxxl);
+   text-align: center;
+}
+
+
+
